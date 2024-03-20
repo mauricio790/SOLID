@@ -1,17 +1,16 @@
-from iphone14builder import iphone14builder
-from iphone15probuilder import iphone15probuilder
+from iphonebuilder import iphonebuilder
 
 class Director:
 
     def __init__(self):
         pass
 
-    def buildiphone14(self, builder : iphone14builder):
+    def buildiphone14(self, builder : iphonebuilder):
         builder.reset()
         builder.setCameras()
         builder.series()
 
-    def buildiphone15pro(self, builder : iphone15probuilder):
+    def buildiphone15pro(self, builder : iphonebuilder):
         builder.reset()
         builder.setCameras()
         builder.series()
